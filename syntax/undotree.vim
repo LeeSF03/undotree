@@ -19,7 +19,7 @@ syn match UndotreeHelpTitle '===.*===' contained
 syn match UndotreeSavedSmall ' \zss\ze '
 syn match UndotreeSavedBig ' \zsS\ze '
 
-hi def link UndotreeNode Question
+hi def link UndotreeNode Constant
 hi def link UndotreeNodeCurrent Statement
 hi def link UndotreeTimeStamp Function
 hi def link UndotreeFirstNode Function
