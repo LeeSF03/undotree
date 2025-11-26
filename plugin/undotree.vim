@@ -116,7 +116,12 @@ endif
 
 " tree vertical shape.
 if !exists('g:undotree_TreeVertShape')
-    let g:undotree_TreeVertShape = '|'
+    let g:undotree_TreeVertShape = '│'
+endif
+
+" tree vertical split shape.
+if !exists('g:undotree_TreeVertSplitShape')
+    let g:undotree_TreeVertSplitShape = '├'
 endif
 
 " tree vertical shape.
@@ -132,6 +137,11 @@ endif
 " tree return shape.
 if !exists('g:undotree_TreeReturnShape')
     let g:undotree_TreeReturnShape = '╰'
+endif
+
+" tree return shape.
+if !exists('g:undotree_TreeVertReturnShape')
+    let g:undotree_TreeVertReturnShape = '╮'
 endif
 
 if !exists('g:undotree_DiffCommand')

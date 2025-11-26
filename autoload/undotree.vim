@@ -1021,7 +1021,7 @@ function! s:undotree.Render() abort
                         let newline = newline.g:undotree_TreeVertShape.' '
                     endif
                     if i > index
-                        let newline = newline.g:undotree_TreeHortShape.g:undotree_TreeReturnShape
+                        let newline = newline.g:undotree_TreeReturnShape.g:undotree_TreeHortShape.g:undotree_TreeVertReturnShape
                     endif
                 endfor
             endif
@@ -1058,7 +1058,7 @@ function! s:undotree.Render() abort
                     let newline = newline.g:undotree_TreeVertShape." "
                 endif
                 if k == index
-                    let newline = newline.g:undotree_TreeVertShape.g:undotree_TreeHortShape.g:undotree_TreeSplitShape
+                    let newline = newline.g:undotree_TreeVertSplitShape.g:undotree_TreeHortShape.g:undotree_TreeSplitShape
                 endif
                 if k > index
                     let newline = newline.g:undotree_TreeHortShape.g:undotree_TreeSplitShape
