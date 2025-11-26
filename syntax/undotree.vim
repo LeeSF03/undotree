@@ -20,7 +20,7 @@ syn match UndotreeSavedSmall ' \zss\ze '
 syn match UndotreeSavedBig ' \zsS\ze '
 
 hi def link UndotreeNode Constant
-hi def link UndotreeNodeCurrent Statement
+hi def link UndotreeNodeCurrent Function
 hi def link UndotreeTimeStamp Function
 hi def link UndotreeFirstNode Function
 hi def link UndotreeBranch Constant
